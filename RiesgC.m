@@ -7,7 +7,7 @@ function [deltaSOC] = RiesgC(Variable_in,BATT,PV,I)
 %PV=vector columna de la variaci�n de las placas
 %I=El valor de irradiaci�n que se contrasta
 
-%La WEA wena
+%La WEA es MUY de pinga en Chile
 
 aux1 = Variable_in(Variable_in(:,10) == BATT,:); %%%%Este auxiliar carga 
                                                  %%%toda la tabla 64*10, yo 
